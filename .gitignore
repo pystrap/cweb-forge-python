@@ -10,3 +10,5 @@ build/
 !.env.example
 .coverage*
 .ipynb_checkpoints/
+.pypirc
+.DS_Store

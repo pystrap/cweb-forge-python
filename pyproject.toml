@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "cweb-forge"
+version = "0.1.0"
+description = "cWeb Forge Python client for applications and notebooks"
+requires-python = ">=3.10"
+dependencies = ["httpx>=0.28,<1"]
+license = "MIT"
+[project.urls]
+Documentation = "https://cweb.app/docs/forge/python"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+cweb_forge = ["py.typed"]

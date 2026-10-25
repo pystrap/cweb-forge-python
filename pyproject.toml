@@ -3,7 +3,7 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "cweb-forge"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python SDK for cWeb Forge serverless data, for applications and notebooks"
 readme = "README.md"
 authors = [{name = "PyStrap"}]
@@ -19,8 +19,8 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 [project.urls]
-Homepage = "https://cweb.app"
-Documentation = "https://github.com/pystrap/cweb-forge-python#readme"
+Homepage = "https://cweb.app/forge"
+Documentation = "https://cweb.app/docs/forge/python"
 Source = "https://github.com/pystrap/cweb-forge-python"
 Issues = "https://github.com/pystrap/cweb-forge-python/issues"
 [tool.setuptools.packages.find]

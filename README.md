@@ -4,7 +4,7 @@
 
 Use cWeb Forge collections from Python backends, scripts and notebooks without
 building a separate data API. This is the official Python SDK for
-[cWeb Forge](https://cweb.app), with synchronous and asynchronous clients for
+[cWeb Forge](https://cweb.app/forge), with synchronous and asynchronous clients for
 applications on cWeb or any other host.
 
 - JSON document operations with collection access rules.
@@ -13,6 +13,7 @@ applications on cWeb or any other host.
 - Backend service keys or application-user access tokens.
 - Works with Django, FastAPI, cWeb Studio and other Python notebook environments.
 
+[Documentation](https://cweb.app/docs/forge/) · [Full Python guide](https://cweb.app/docs/forge/python) ·
 [Getting started](#getting-started) · [Async usage](#async-usage) ·
 [Notebooks](#notebooks) · [Contributing](#contributing)
 
@@ -20,14 +21,7 @@ applications on cWeb or any other host.
 
 Requires Python 3.10 or later.
 
-The first PyPI release is being prepared. Until it is available, clone this
-repository and install from its local path:
-
-```sh
-python -m pip install ./cweb-forge-python
-```
-
-Once published, install from PyPI:
+Install from PyPI:
 
 ```sh
 python -m pip install cweb-forge
